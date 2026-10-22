@@ -1,7 +1,7 @@
 name: pdfcraft
 title: PdfCraft
 base: core24
-version: '0.11.0'
+version: '0.12.0'
 summary: Read, organise, combine, split and secure PDFs
 description: |
   PdfCraft is an open-source, native PDF editor: read, annotate, fill forms, sign, organise, combine, split and secure PDFs.
