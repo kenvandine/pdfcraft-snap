@@ -32,6 +32,7 @@ apps:
     common-id: ai.storyteller.pdfcraft
     plugs:
       - audio-playback
+      - cups
       - home
       - network
       - network-bind
@@ -41,6 +42,7 @@ apps:
     command: bin/pdfcraft-cli
     extensions: [gnome]
     plugs:
+      - cups
       - home
       - network
       - network-bind
@@ -53,6 +55,7 @@ parts:
       - ca-certificates
       - curl
     stage-packages:
+      - cups-client
       - libvulkan1
       - libxkbcommon-x11-0
     override-pull: |
