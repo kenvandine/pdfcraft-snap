@@ -1,6 +1,6 @@
 name: pdfcraft
 title: PdfCraft
-base: core24
+base: core26
 version: '0.21.1'
 summary: Read, organise, combine, split and secure PDFs
 description: |
