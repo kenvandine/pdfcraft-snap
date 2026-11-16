@@ -32,6 +32,7 @@ apps:
     common-id: ai.storyteller.pdfcraft
     plugs:
       - audio-playback
+      - cups-control
       - home
       - network
       - network-bind
